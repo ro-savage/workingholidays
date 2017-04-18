@@ -1,0 +1,31 @@
+{
+  "name": "workingholidays",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" next",
+    "build": "concurrently \"tsc --watch\" next build",
+    "start": "concurrently \"tsc --watch\" next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ro-savage/workingholidays.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ro-savage/workingholidays/issues"
+  },
+  "homepage": "https://github.com/ro-savage/workingholidays#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "typescript": "^2.2.2",
+    "@types/react": "^15.0.22"
+  },
+  "dependencies": {
+    "next": "^2.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
