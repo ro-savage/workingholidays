@@ -1,11 +1,11 @@
 import * as React from 'react'
 
-class props {
-  public title:string;
-  public data:any[];
+interface props {
+  title: string
+  data: any[]
 }
 
-const Table = (props:props) => {
+const Table: React.StatelessComponent<props> = (props) => {
   console.log(props)
   console.log(props.data)
   return (

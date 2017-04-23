@@ -1,8 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = require("react");
-class props {
-}
 const Table = (props) => {
     console.log(props);
     console.log(props.data);

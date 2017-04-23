@@ -1,18 +1,7 @@
 "use strict";
 
-var _classCallCheck2 = require("babel-runtime/helpers/classCallCheck");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-
-var props = function props() {
-    (0, _classCallCheck3.default)(this, props);
-};
-
 var Table = function Table(props) {
     console.log(props);
     console.log(props.data);
